@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==2.2.3"
+pillow = "*"
+itsdangerous = "*"
+redis = "*"
+eventlet = "*"
+celery = "*"
+django-redis = "*"
+requests = "*"
+py3fdfs = "*"
+django-haystack = "*"
+whoosh = "*"
+jieba = "*"
+python-alipay-sdk = "*"
+pyopenssl = "*"
+
+[requires]
+python_version = "3.7"
