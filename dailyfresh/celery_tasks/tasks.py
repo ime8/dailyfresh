@@ -20,8 +20,8 @@ import time
 import redis
 
 #创建一个Celery的实例对象
-broker='redis://122.51.181.167:6379/8'
-backend = 'redis://122.51.181.167:6379/8'
+broker='redis://127.0.0.1:6379/8'
+backend = 'redis://127.0.0.1:6379/8'
 app = Celery("celery_tasks.tasks",broker=broker)
 #定义发送邮件任务函数
 @app.task

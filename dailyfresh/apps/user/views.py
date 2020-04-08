@@ -277,7 +277,7 @@ class UserInfoView(LoginRequiredMixin,View):
         address = Address.objects.get_default_address(user)
         #获取用户的历史浏览记录
         # from redis import StrictRedis
-        # sr = StrictRedis(host='122.51.181.167',port='6379',db=9)
+        # sr = StrictRedis(host='127.0.0.1',port='6379',db=9)
 
         # 获取用户的历史浏览记录
         con = get_redis_connection('default')
